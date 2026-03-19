@@ -243,7 +243,7 @@ delve, tapestry, testament, underscore, pivotal, meticulous, intricate, landscap
 
 ### Banned Formatting
 
-- **Em dashes:** Maximum one per post. Periods or commas instead.
+- **Em dashes:** Never. Zero. Em dashes are now a top AI tell. Use periods, commas, or parentheses instead.
 - **Semicolons:** Never in social posts. Periods only.
 - **Exclamation marks:** Maximum one per post. Zero is usually better.
 - **ALL CAPS for emphasis:** One word max. Never a full phrase.
