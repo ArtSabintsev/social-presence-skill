@@ -33,7 +33,10 @@ ln -s /path/to/social-presence-skill ~/.agents/skills/social-presence
 - Applies persuasion principles (frame control, social proof, loss aversion, specificity) adapted for social
 - Enforces a strict "sound human" rule — banned AI words, required contractions, varied sentence rhythm
 - Detects post type (thought leadership, story, hot take, thread, announcement, engagement) and applies type-specific rules
-- Runs a self-check before delivering every draft
+- Catches deeper AI patterns — copula avoidance, synonym cycling, quotable statement removal, false scope, generic conclusions
+- Injects human voice signals — reacting to facts, controlled messiness, specific feeling, admitting uncertainty
+- Scores every draft on directness, rhythm, trust, authenticity, and concision (7+ required on each)
+- Runs a 14-point self-check before delivering every draft
 
 ## Relationship to Command Presence
 
