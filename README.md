@@ -1,8 +1,22 @@
 # Social Presence
 
-A Claude Code skill for drafting LinkedIn posts, X (Twitter) posts, and threads with strategic voice, platform-native formatting, and human authenticity.
+A Claude Code skill for drafting LinkedIn posts, X (Twitter) posts, blog articles, newsletters, essays, and general writing with strategic voice, platform-native formatting, and human authenticity.
 
-Built on the same persuasion and "sound human" framework as [command-presence](https://github.com/ArtSabintsev/command-presence-skill), adapted for social media.
+## Lineage
+
+Social Presence is built on the persuasion framework from [command-presence](https://github.com/ArtSabintsev/command-presence-skill). That skill handles private, high-stakes communication (emails, investor messages, negotiations). This skill takes the same strategic foundation and applies it to public writing.
+
+**Shared from command-presence:**
+- Full 8-principle persuasion framework (Adams, Voss, Cialdini, Patterson, Willink, Greene, Fisher & Ury)
+- Banned word/phrase lists and "sound human" voice rules
+- Frame control, tactical empathy, loss aversion, identity-based persuasion
+
+**Added by social-presence:**
+- Platform-specific rules for LinkedIn, X, blogs, newsletters, and essays
+- Algorithm-aware formatting and hook patterns
+- Post type detection (thought leadership, story, hot take, thread, announcement, engagement)
+- Blog post, newsletter, and essay structure guidance
+- Extended anti-AI detection (em dash ban, triad-breaking, parallel structure variation)
 
 ## Install
 
@@ -22,30 +36,14 @@ ln -s /path/to/social-presence-skill ~/.agents/skills/social-presence
 /social-presence LinkedIn post about [topic]
 /social-presence X thread on [topic]
 /social-presence hot take about [opinion]
+/social-presence blog post about [topic]
+/social-presence newsletter issue about [topic]
+/social-presence essay on [topic]
 /social-presence rewrite this for LinkedIn: [pasted text]
+/social-presence rewrite this to sound more human: [pasted text]
 /social-presence announcement post for [news] on [platform]
 /social-presence both platforms: [topic]
 ```
-
-## What It Does
-
-- Drafts platform-native posts for LinkedIn and X with correct formatting, length, and tone
-- Applies persuasion principles (frame control, social proof, loss aversion, specificity) adapted for social
-- Enforces a strict "sound human" rule — banned AI words, required contractions, varied sentence rhythm
-- Detects post type (thought leadership, story, hot take, thread, announcement, engagement) and applies type-specific rules
-- Catches deeper AI patterns — copula avoidance, synonym cycling, quotable statement removal, false scope, generic conclusions
-- Injects human voice signals — reacting to facts, controlled messiness, specific feeling, admitting uncertainty
-- Scores every draft on directness, rhythm, trust, authenticity, and concision (7+ required on each)
-- Runs a 14-point self-check before delivering every draft
-
-## Relationship to Command Presence
-
-Social Presence shares DNA with command-presence:
-- Same banned word/phrase lists
-- Same "sound human" voice rules
-- Same persuasion framework (Cialdini, Voss, Adams)
-
-But applies them through platform-specific lenses — LinkedIn's 3,000-char posts, X's 280-char constraints, thread structure, hook patterns, hashtag strategy, and algorithm-aware formatting.
 
 ## License
 
